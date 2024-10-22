@@ -66,10 +66,8 @@ g++ -O2 -L"\usr\include\SFML" -lsfml-graphics -lsfml-window -lsfml-system
 
 ### Current status
 
-1. Interface is almost complete, but we have to make sure that every click is not always be counted. Is it possible to calculate that given a specific region, the thing will be placed on the intersection if the clicl is valid.
+1. Completed the functionality of Main Screen and Game Screen. Next goal: connect both elements.
 
-2. The connection between the interface and the client.
-
-3. Maybe we should have a menu that we can enter the player information (not complete), the menu of the online users (not complete), and the one that 2 players are playing (almost complete)
+2. Completed the gameplay detection and communicatiton of Game Board. Next goal: complete the In-Game Chat Box.
 
 ### Complete (git log to see the progress)
